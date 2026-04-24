@@ -72,7 +72,7 @@ if resposta == '1':
   #verificando se tem algo dentro da lista
   if quantos_indice >= 1:
      #fazendo um carregamento de suspense
-     for i in tqdm(range(5)):
+     for i in tqdm(range(8)):
       time.sleep(1)
      #sorteando e printando o resultado
      indice = randint(0, quantos_indice)
